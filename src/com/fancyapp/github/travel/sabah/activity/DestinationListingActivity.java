@@ -23,7 +23,7 @@ public class DestinationListingActivity extends BaseActivity {
 		final Bundle bundle = getIntent().getExtras();
 
 		if (bundle != null && bundle.containsKey(getString(R.string.cat_id))) {
-			// parent category
+			// destination parent is category
 			if (bundle != null
 					&& bundle.containsKey(getString(R.string.cat_name))) {
 				setTitle(bundle.getString(getString(R.string.cat_name)));
@@ -32,7 +32,7 @@ public class DestinationListingActivity extends BaseActivity {
 			populateDestinationListing(Integer.valueOf(catId), true);
 		} else if (bundle != null
 				&& bundle.containsKey(getString(R.string.sub_cat_id))) {
-			// parent category
+			// destination parent is sub category
 			if (bundle != null
 					&& bundle.containsKey(getString(R.string.sub_cat_name))) {
 				setTitle(bundle.getString(getString(R.string.sub_cat_name)));
