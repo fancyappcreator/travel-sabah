@@ -1,0 +1,13 @@
+<!-- Options Menu for SCWRooster. -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_save_favourite"
+        android:icon="@drawable/ic_favourite"
+        android:showAsAction="collapseActionView|ifRoom"/>
+    <item
+        android:id="@+id/menu_favourite_settings"
+        android:icon="@drawable/ic_favourite_settings"
+        android:showAsAction="collapseActionView|ifRoom"/>
+
+</menu>

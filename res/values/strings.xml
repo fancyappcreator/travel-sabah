@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- App Info -->
+    <string name="app_name">Travel Sabah</string>
+
+    <!-- Common -->
+    <string name="cat_id">cat_id</string>
+    <string name="cat_name">cat_name</string>
+    <string name="sub_cat_id">sub_cat_id</string>
+    <string name="sub_cat_name">sub_cat_name</string>
+    <string name="destination">destination</string>
+
+    <!-- Menu -->
+    <string name="menu_refresh_db">Refresh DB</string>
+    <string name="menu_save_favourite">Save Favourtie</string>
+
+    <!-- Messages -->
+   
+
+    <!-- Title -->
+    <string name="title_desc">Description</string>
+    <string name="title_address">Address</string>
+    <string name="title_location">Location</string>
+    <string name="title_price_range">Price Range</string>
+    <string name="title_transportation">Transportation</string>
+    <string name="title_video">Video</string>
+    <string name="title_source">Source</string>
+
+</resources>
